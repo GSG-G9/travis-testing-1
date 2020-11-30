@@ -5,6 +5,7 @@ const fetch = require('node-fetch');
 router.get('/', (req, res) => {
 	res.sendFile(join(__dirname, '..', '..', 'public', 'index.html'));
 });
+console.log('hassan');
 
 router.get('/countries', (req, res) => {
 	fetch('https://api.covid19api.com/countries')
