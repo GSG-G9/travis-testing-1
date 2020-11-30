@@ -7,15 +7,6 @@ describe('GET Request', () => {
 	test('GET /', (done) => {
 		request(app).get('/').expect(200, done);
 	});
-});
-describe('GET Request', () => {
-	test('GET /', (done) => {
-		request(app).get('/').expect(200, done);
-	});
-});
 
-describe('GET Request', () => {
-	test('GET /', (done) => {
-		request(app).get('/').expect(200, done);
-	});
+	
 });
