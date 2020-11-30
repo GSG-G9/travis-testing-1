@@ -1,0 +1,32 @@
+{
+	"name": "travis-tesing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --watch",
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hassanelnajjar/travis-tesing.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/hassanelnajjar/travis-tesing/issues"
+	},
+	"homepage": "https://github.com/hassanelnajjar/travis-tesing#readme",
+	"devDependencies": {
+		"jest": "^26.6.3",
+		"supertest": "^6.0.1"
+	},
+	"dependencies": {
+		"compression": "^1.7.4",
+		"env2": "^2.2.2",
+		"express": "^4.17.1",
+		"morgan": "^1.10.0"
+	}
+}
